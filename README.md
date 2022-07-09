@@ -1,9 +1,13 @@
 # git
 
-## git reset command
+## git commands
+***
+
+### git reset command
 
 ```
-$ git reset --hard HEAD       (going back to HEAD)
+$ git reset --hard HEAD       (going back to HEAD) 
+//  The purpose of the “git reset” command is to move the current HEAD to the commit specified
 
 $ git reset --hard HEAD^      (going back to the commit before HEAD)
 $ git reset --hard HEAD~1     (equivalent to "^")
